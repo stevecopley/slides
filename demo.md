@@ -4,6 +4,18 @@ class: center, middle, inverse
 
 
 
+---
+# **Slides** Demo
+
+
+---
+# Based on **ReMark**
+
+Site here: https://remarkjs.com/
+
+Source here: https://github.com/gnab/remark
+
+Not been updated in a while, but simple to use and works well. Here it has been restyled and has a number of additional layouts (sequences, etc.) and features added.
 
 
 ---
@@ -19,7 +31,16 @@ class: center, middle, inverse
 
 
 ---
-# **Lots** of Titles!
+# **Multiple** Titles
+
+## Sub-Title
+
+### Sub-Sub-Title
+
+
+
+---
+# Titles **One-by-One**
 
 --
 ## Sub-Title
@@ -33,6 +54,7 @@ class: center, middle, inverse
 template: title
 
 # **Text** Features
+
 
 ---
 layout: false
@@ -54,8 +76,6 @@ Text can also contain links like [this one](https://www.google.com), and footnot
 
 
 
-
-
 ---
 template: title
 
@@ -65,25 +85,33 @@ template: title
 layout: false
 class: center, middle
 
-Full screen content. This text flows right across the page which has relatively small margins. It could be a little hard to read on large screens.
+### Full screen content 
+
+This text flows right across the page which has relatively small margins. It could be a little hard to read on large screens.
 
 
 ---
 class: center, middle, larger
 
-Full screen content with a large text size. This text flows right across the page which has relatively small margins. It should be easy to read on large screens.
+### Full screen content with a large text size
+
+This text flows right across the page which has relatively small margins. It should be easy to read on large screens.
 
 
 ---
 class: center, middle, larger, narrowish
 
-Full screen content with a large text size. This text flows right across the page which has larger-than-normal margins.
+### Bigger margins
+
+This text flows right across the page which has larger-than-normal margins.
 
 
 ---
 class: center, middle, narrow, larger
 
-Full screen content with a large text size. This text flows right across the page which has pretty large margins.
+### Very big margins
+
+This text flows right across the page which has pretty large margins.
 
 
 
@@ -116,41 +144,41 @@ class: center, middle, larger, narrow, back-highlight, text-white
 
 ---
 class: center, middle, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## Images can also be used for the background of the side
 
 
 ---
 class: center, middle, blur, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## The images can be blurred to aid reading text on top...
 
 
 ---
 class: center, middle, blur-more, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## ... can be blurred more...
 
 
 ---
 class: center, middle, blur-lots, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## ... or can be really blurred!
 
 ---
 class: center, middle, grey, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## Background images can also be greyed-out...
 
 
 ---
 class: center, middle, grey, blur, highlight
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 ## ... or both greyed and blurred
 
@@ -169,31 +197,41 @@ template: title
 layout: false
 class: center, top, larger, narrowish
 
-The content of the slide can be easily positioned, both vertically...
+### Align Top
+
+The content of the slide can be easily positioned vertically
 
 
 ---
 class: center, bottom, larger, narrowish
 
-The content of the slide cna be easily positioned, both vertically...
+### Align Bottom
+
+The content of the slide cna be easily positioned vertically
 
 
 ---
 class: left, middle, larger, narrowish
 
-... and also horizontally
+### Align Left
+
+Or horizontally
 
 
 ---
 class: right, middle, larger, narrowish
 
-... and also horizontally
+### Align Right
+
+Or horizontally
 
 
 ---
 class: right, bottom, larger, narrowish
 
-Or both!
+### Align Bottom Right
+
+Or both
 
 
 
@@ -210,7 +248,7 @@ class: center, middle
 
 ### A Large Image
 
-![image](https://placeimg.com/2000/700/tech)
+![image](https://picsum.photos/2000/700)
 
 
 ---
@@ -218,7 +256,7 @@ class: center, middle
 
 ### A Large Image, Bordered
 
-.bordered[![image](https://placeimg.com/2000/700/tech)]
+.bordered[![image](https://picsum.photos/2000/700)]
 
 
 ---
@@ -226,7 +264,7 @@ class: center, middle, with-columns
 
 .columns[
  .column[
-  .round[.bordered[![image](https://placeimg.com/300/300/tech)]]
+  .round[.bordered[![image](https://picsum.photos/300/300)]]
  ]
 
  .column[
@@ -243,7 +281,7 @@ class: center, middle, with-columns
  ]
 
  .column[
-  .square[.bordered[![image](https://placeimg.com/300/700/tech)]]
+  .square[.bordered[![image](https://picsum.photos/300/700)]]
  ]
 ]
 
@@ -266,7 +304,7 @@ The other text has been floated left and this text now sits to its right. The ot
 ---
 ## Floating Image
 
-.pull-right[![image](https://placeimg.com/800/400/tech)]
+.pull-right[![image](https://picsum.photos/800/400)]
 
 The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left. The image has been floated right and this text now sits to its left.
 
@@ -274,9 +312,17 @@ The image has been floated right and this text now sits to its left. The image h
 ---
 ## Floating Two Images
 
-.pull-left[![image](https://placeimg.com/1000/600/tech)]
+.pull-left[
+  ### One to the Left
 
-.pull-right[![image](https://placeimg.com/1000/600/tech)]
+  ![image](https://picsum.photos/1000/600)
+]
+
+.pull-right[
+  ### One to the Right
+
+  ![image](https://picsum.photos/1000/601)
+]
 
 
 
@@ -293,61 +339,65 @@ layout: false
 class: with-sidebar
 
 .sidebar[
-  ## Sidebar
+  ### Sidebar
 
   This is the sidebar and this can contain headings, text, etc.
-
-  ### Labels
 
   It is a good place to introduce and describe the content found to the right.
 
 ]
 
-### Sidebar Layout
+## Sidebar Layout
 
-This content can be headings, text, images, steps or any combination of them.
+This main content can be headings, text, images, steps or any combination of them.
 
-.bordered[![image](https://placeimg.com/1000/400/tech)]
+This main content can be headings, text, images, steps or any combination of them.
 
-
----
-class: with-sidebar
-
-.sidebar[
-  ## Multiple Headings...
-
-  ### First Sub-Heading
-]
-
-The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one, so that a sequence of headings and content can easly be shown.
+This main content can be headings, text, images, steps or any combination of them.
 
 
 ---
 class: with-sidebar
 
 .sidebar[
-  ## Multiple Headings...
-
-  ### First Sub-Heading
-  ### Second Sub-Heading
+  ### First Heading
 ]
 
-The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one, so that a sequence of headings and content can easly be shown.
+## Multiple Headings
+
+The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one...
+
+---
+class: with-sidebar
+
+.sidebar[
+  ### First Heading
+  ### Second Heading
+]
+
+## Multiple Headings
+
+The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one...
+
+... so that a sequence of headings and content...
 
 
 ---
 class: with-sidebar
 
 .sidebar[
-  ## Multiple Headings...
-
-  ### First Sub-Heading
-  ### Second Sub-Heading
-  ### Third Sub-Heading
+  ### First Heading
+  ### Second Heading
+  ### Third Heading
 ]
 
-The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one, so that a sequence of headings and content can easly be shown.
+## Multiple Headings
 
+The sidebar, if it has multiple headings (h3) in it, will automatically highlight the last one...
+
+... so that a sequence of headings and content...
+
+... can easly be shown, like this
 
 
 
@@ -371,7 +421,7 @@ class: with-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/600/300/tech)
+  ![image](https://picsum.photos/600/300)
  ]
 
  .column[
@@ -379,7 +429,7 @@ class: with-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/800/400/tech)
+  ![image](https://picsum.photos/800/400)
  ]
 ]
 
@@ -396,7 +446,7 @@ class: with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/600/300/tech)
+  ![image](https://picsum.photos/600/300)
  ]
 
  .column[
@@ -404,7 +454,7 @@ class: with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/700/350/tech)
+  ![image](https://picsum.photos/700/350)
  ]
 
  .column[
@@ -412,7 +462,7 @@ class: with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/800/400/tech)
+  ![image](https://picsum.photos/800/400)
  ]
 ]
 
@@ -422,7 +472,7 @@ layout: false
 class: with-sidebar, with-columns, three-columns
 
 .sidebar[
- ### Column Layout within Sidebar
+ ### Column Layout with Sidebar
 ]
 
 .columns[
@@ -431,7 +481,7 @@ class: with-sidebar, with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/600/300/tech)
+  ![image](https://picsum.photos/600/300)
  ]
 
  .column[
@@ -439,7 +489,7 @@ class: with-sidebar, with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/700/350/tech)
+  ![image](https://picsum.photos/700/350)
  ]
 
  .column[
@@ -447,7 +497,7 @@ class: with-sidebar, with-columns, three-columns
 
   This column can contain any text or images
 
-  ![image](https://placeimg.com/800/400/tech)
+  ![image](https://picsum.photos/800/400)
  ]
 ]
 
@@ -793,6 +843,12 @@ This one is set to large text.
    This is the second topic or note.
  ]
 
+ .step[
+   ### Step Three
+
+   This is the third topic or note.
+ ]
+
 ]]
 
 
@@ -935,19 +991,19 @@ Tiles can contain images as well as text
 
 .tiles[
  .tile[
-   ![image](https://placeimg.com/800/600/tech)
+   ![image](https://picsum.photos/800/600)
 
    This is the first tile.
  ]
 
 .tile[
-   ![image](https://placeimg.com/1000/750/tech)
+   ![image](https://picsum.photos/1000/750)
 
    This is the second tile.
  ]
 
 .tile[
-   ![image](https://placeimg.com/600/450/tech)
+   ![image](https://picsum.photos/600/450)
 
    This is the third tile.
  ]
@@ -956,6 +1012,8 @@ Tiles can contain images as well as text
 
 ---
 class: tiled, inverse
+
+### Small Tiles
 
 .small[.tiles[
 
@@ -1018,6 +1076,8 @@ class: tiled, inverse
 ---
 class: tiled, inverse
 
+### Small Tiles (darker colours)
+
 .small[.tiles[
 
  .tile[.back-dark-red[
@@ -1077,7 +1137,7 @@ class: tiled, inverse
 
 ---
 class: tiled, inverse, blur
-background-image: url('https://placeimg.com/800/600/tech')
+background-image: url('https://picsum.photos/800/600')
 
 .small[.tiles[
 
@@ -1144,7 +1204,9 @@ class: with-sidebar, tiled
 .sidebar[
   ## Tiles with Sidebar
 
-  Tiles can sit within a with-sidebar layout
+  Tiles can sit within a with-sidebar layout.
+
+  They can also contain other layouts, like a sequence of steps
 ]
 
 .tiles[
@@ -1183,9 +1245,9 @@ class: with-sidebar, tiled
  .tile[
    ### Sixth
 
-   .step[One]
-   .step[Two]
-   .step[Three]
+   .step[Step One]
+   .step[Step Two]
+   .step[Step Three]
  ]
 ]
 
@@ -1263,7 +1325,7 @@ class: with-sidebar
 .sidebar[
   ## Code Snippet
 
-  This snippet is shown as a sequence of blocks of code.
+  This snippet is shown as a sequence of blocks of code, each one adding to the previous.
 ]
 
 
@@ -1712,11 +1774,13 @@ The code can be displayed simply: `while True:`, or it can be highlighted: _`pri
 ---
 template: title
 
-# Code **Demos**
+# Code **Demos** in 'Browsers'
 
 
 ---
 ### Code Snippet Demo
+
+You can show some code to the left, with a 'preview' to the right...
 
 .pull-left[
 ```css
@@ -1748,6 +1812,8 @@ class: code-highlighting
 
 ### Code Snippet Demo
 
+... then highlight the effect as new styling is applied...
+
 .pull-left[
 ```css
 *body {
@@ -1768,8 +1834,6 @@ h1 {
 
    <p>Lorem ipsum dolor sit amet, nulla suavitate adipiscing ea eos, sit ei recusabo persecuti. Sumo nominati sed eu.</p>
 
-   <img src="https://placeimg.com/120/100/tech">
-
    <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
 
   </div>
@@ -1781,6 +1845,8 @@ h1 {
 class: code-highlighting
 
 ### Code Snippet Demo
+
+... then highlight the effect as new styling is applied...
 
 .pull-left[
 ```css
@@ -1803,8 +1869,6 @@ body {
    ]
 
    <p>Lorem ipsum dolor sit amet, nulla suavitate adipiscing ea eos, sit ei recusabo persecuti. Sumo nominati sed eu.</p>
-
-   <img src="https://placeimg.com/120/100/tech">
 
    <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
 
@@ -1835,7 +1899,7 @@ h1 {
 
    <p>Lorem ipsum dolor sit amet, nulla suavitate adipiscing ea eos, sit ei recusabo persecuti. Sumo nominati sed eu.</p>
 
-   <img src="https://placeimg.com/120/100/tech">
+   <img src="https://picsum.photos/120/100">
 
    <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
 
@@ -1848,7 +1912,7 @@ h1 {
 
 ### Code Snippet Demo
 
-Here's a full-height 'mobile' view
+Here's a full-height 'mobile' view...
 
 ```css
 body {
@@ -1869,7 +1933,7 @@ h1 {
 
    <p>Lorem ipsum dolor sit amet, nulla suavitate adipiscing ea eos, sit ei recusabo persecuti. Sumo nominati sed eu.</p>
 
-   <img src="https://placeimg.com/120/100/tech">
+   <img src="https://picsum.photos/120/100">
 
    <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
 
@@ -1882,30 +1946,30 @@ h1 {
 
 ### Code Snippet Demo
 
-Here's a 'mobile' view
+Here's a full-height 'mobile' view...
 
 ```css
 body {
   font-family: sans-serif;
-  background: red;
-  color: white;
+* background: #003366;
+* color: white;
 }
 
 h1 {
   font-size: 3em;
-  color: #336699;
+* color: yellow;
 }
 ```
 ]
 
 .pull-right[.mobile[.demo[
-  <div class="body" style="font-family: sans-serif; background: red; color: white;">
+  <div class="body" style="font-family: sans-serif; background: #003366; color: white;">
 
-   <h1 style="font-size: 3em; color: #336699;">Hello</h1>
+   <h1 style="font-size: 3em; color: yellow;">Hello</h1>
 
    <p>Lorem ipsum dolor sit amet, nulla suavitate adipiscing ea eos, sit ei recusabo persecuti. Sumo nominati sed eu.</p>
 
-   .bordered[<img src="https://placeimg.com/120/100/tech">]
+   .bordered[<img src="https://picsum.photos/120/100">]
 
    <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
 
@@ -1936,19 +2000,24 @@ class: with-sidebar
   <li>Three</li>
  </ul>
 
- <div style="float: right;"><img src="https://placeimg.com/200/160/tech"></div>
-
  <table>
   <tr> <th>A</th>     <th>B</th>    </tr>
   <tr> <td>One</td>   <td>Two</td>  </tr>
   <tr> <td>Three</td> <td>Four</td> </tr>
  </table>
 
- <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
+ <p>Usu an nobis tincidunt instructior, vis latine probatus cu.</p>
+ 
+ <img src="https://picsum.photos/500/160">
 
 </div>
 ]
 
+
+---
+class: center, middle
+
+## The following slides show full-screen previews...
 
 ---
 class: center, middle
@@ -1966,15 +2035,15 @@ class: center, middle
   <li>Three</li>
  </ul>
 
- <div style="float: right;"><img src="https://placeimg.com/200/160/tech"></div>
-
  <table>
   <tr> <th>A</th>     <th>B</th>    </tr>
   <tr> <td>One</td>   <td>Two</td>  </tr>
   <tr> <td>Three</td> <td>Four</td> </tr>
  </table>
 
- <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
+ <p>Usu an nobis tincidunt instructior, vis latine probatus cu.</p>
+ 
+ <img src="https://picsum.photos/500/160">
 
 </div>
 ]
@@ -1996,15 +2065,15 @@ class: center, middle
   <li>Three</li>
  </ul>
 
- <div style="float: right;"><img src="https://placeimg.com/200/160/tech"></div>
-
  <table>
   <tr> <th>A</th>     <th>B</th>    </tr>
   <tr> <td>One</td>   <td>Two</td>  </tr>
   <tr> <td>Three</td> <td>Four</td> </tr>
  </table>
 
- <p>Usu an nobis tincidunt instructior, vis latine probatus cu. Ut nec ridens labores, ne adhuc nonumes scripserit sit, persius fabellas ad eos.</p>
+ <p>Usu an nobis tincidunt instructior, vis latine probatus cu.</p>
+ 
+ <img src="https://picsum.photos/500/160">
 
 </div>
 ]]
